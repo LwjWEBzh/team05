@@ -1,0 +1,40 @@
+html {
+    font-size: 37.5px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer {
+    width: 100%;
+    height: .4rem
+}
+
+footer #dylist {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+footer #dylist li i.icon {
+    font-size: .6rem
+}
+
+footer #dylist li {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer #dylist li span {
+    font-size: .4rem
+}
+
+.bg {
+    color: #FA9AAD
+}
