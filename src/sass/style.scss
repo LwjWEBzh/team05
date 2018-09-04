@@ -1,0 +1,49 @@
+@import './common.scss';
+.main {
+    width: 100%;
+    .parent-box {
+        width: 100%;
+        @include display(flex);
+        flex-wrap: wrap;
+        dl {
+            width: 50%;
+            box-shadow: 0;
+            padding: px2rem(10px);
+            dt {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            dd {
+                width: 100%;
+                p {
+                    width: 100%;
+                    height: px2rem(18px);
+                    line-height: px2rem(18px);
+                }
+                .title-box {
+                    width: 100%;
+                    @include display(flex);
+                    .title {
+                        margin-left: px2rem(10px);
+                    }
+                }
+                .price-box {
+                    width: 100%;
+                    @include display(flex, row, space-between);
+                    .jian {
+                        margin-right: px2rem(10px);
+                    }
+                }
+                .jinsheng-box {
+                    width: 100%;
+                    @include display(flex, row, space-between);
+                    .jinsheng {
+                        margin-right: px2rem(10px);
+                    }
+                }
+            }
+        }
+    }
+}
