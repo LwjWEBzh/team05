@@ -5,26 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/swiper-4.1.6.min.css">
-
-    <script src="js/commonjs/flexible.js"></script>
-    <script src="js/commonjs/zepto.js"></script>
-    <script src="js/commonjs/swiper-4.1.6.min.js"></script>
-    <script src="js/commonjs/better-scroll.js"></script>
-    <title>team05</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/index.css">
+    <link rel="stylesheet" href="./scss/swiper.min.css">
 </head>
 
 <body>
     <div class="wrap">
-        <header>
-
-        </header>
-        <section></section>
+        <header></header>
+        <section>
+            <div class="swiper-container banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" id="slider">
+                        <dl>
+                            <dt><img src="./images/1_03.gif" alt=""></dt>
+                            <dd>
+                                <p>强力粘胶挂钩24个</p>
+                                <span>￥10.8<b>￥13.8</b></span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="swiper-slide">
+                        <dl>
+                            <dt><img src="./images/2_03.gif" alt=""></dt>
+                            <dd>
+                                <p>iphone6钢化膜两片</p>
+                                <span>￥5.8<b>￥10.8</b></span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="swiper-slide">
+                        <dl>
+                            <dt><img src="./images/3_03.gif" alt=""></dt>
+                            <dd>
+                                <p>纤密码减肥胶囊</p>
+                                <span>￥9.9<b>￥64.8</b></span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="swiper-slide">
+                        <dl>
+                            <dt><img src="./images/1_03.gif" alt=""></dt>
+                            <dd>
+                                <p>强力粘胶挂钩24个</p>
+                                <span>￥10.8<b>￥13.8</b></span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="swiper-slide">
+                        <dl>
+                            <dt><img src="./images/2_03.gif" alt=""></dt>
+                            <dd>
+                                <p>iphone6钢化膜两片</p>
+                                <span>￥5.8<b>￥10.8</b></span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="swiper-slide">
+                        <dl>
+                            <dt><img src="./images/3_03.gif" alt=""></dt>
+                            <dd>
+                                <p>纤密码减肥胶囊</p>
+                                <span>￥9.9<b>￥64.8</b></span>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
         <footer></footer>
     </div>
-    <script src="js/commonjs/jquery-3.3.1.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.banner', {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+            pagination: '.swiper-pagination',
+        })
+    </script>
 </body>
 
 </html>
