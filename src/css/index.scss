@@ -9,6 +9,22 @@
 
 header {
     width: 100%;
+    height: pxTorem(50px);
+    overflow-x: hidden;
+    .list {
+        width: 1700px;
+        height: 100%;
+        padding-left: pxTorem(10px);
+        span {
+            line-height: pxTorem(50px);
+            padding: pxTorem(6px) pxTorem(10px);
+            font-size: pxTorem(14px);
+        }
+        .active {
+            color: red;
+            border-bottom: pxTorem(1px) solid red;
+        }
+    }
 }
 
 section {
