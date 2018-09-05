@@ -146,17 +146,17 @@ code {
     .main .parent-box dl {
       width: 50%;
       box-shadow: 0;
-      padding: 0.26667rem; }
-      .main .parent-box dl dt {
+      padding: pxTorem(10px); }
+      .main .parent-box dl > dt {
         width: 100%; }
-        .main .parent-box dl dt img {
+        .main .parent-box dl > dt > img {
           width: 100%; }
       .main .parent-box dl dd {
         width: 100%; }
         .main .parent-box dl dd p {
           width: 100%;
-          height: 0.48rem;
-          line-height: 0.48rem; }
+          height: pxTorem(18px);
+          line-height: pxTorem(18px); }
         .main .parent-box dl dd .title-box {
           width: 100%;
           display: flex;
@@ -164,7 +164,7 @@ code {
           justify-content: flex-start;
           align-items: center; }
           .main .parent-box dl dd .title-box .title {
-            margin-left: 0.26667rem; }
+            margin-left: pxTorem(10px); }
         .main .parent-box dl dd .price-box {
           width: 100%;
           display: flex;
@@ -172,7 +172,7 @@ code {
           justify-content: space-between;
           align-items: center; }
           .main .parent-box dl dd .price-box .jian {
-            margin-right: 0.26667rem; }
+            margin-right: pxTorem(10px); }
         .main .parent-box dl dd .jinsheng-box {
           width: 100%;
           display: flex;
@@ -180,4 +180,4 @@ code {
           justify-content: space-between;
           align-items: center; }
           .main .parent-box dl dd .jinsheng-box .jinsheng {
-            margin-right: 0.26667rem; }
+            margin-right: pxTorem(10px); }

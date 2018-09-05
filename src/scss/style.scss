@@ -1,5 +1,4 @@
-@import 'common.scss',
-'_mixin.scss';
+@import 'common.scss';
 .main {
     width: 100%;
     .parent-box {
@@ -9,7 +8,7 @@
         dl {
             width: 50%;
             box-shadow: 0;
-            padding: pxTorem(10px);
+            padding: px2rem(10px);
             >dt {
                 width: 100%;
                 >img {
@@ -20,28 +19,28 @@
                 width: 100%;
                 p {
                     width: 100%;
-                    height: pxTorem(18px);
-                    line-height: pxTorem(18px);
+                    height: px2rem(18px);
+                    line-height: px2rem(18px);
                 }
                 .title-box {
                     width: 100%;
                     @include display(flex);
                     .title {
-                        margin-left: pxTorem(10px);
+                        margin-left: px2rem(10px);
                     }
                 }
                 .price-box {
                     width: 100%;
                     @include display(flex, row, space-between);
                     .jian {
-                        margin-right: pxTorem(10px);
+                        margin-right: px2rem(10px);
                     }
                 }
                 .jinsheng-box {
                     width: 100%;
                     @include display(flex, row, space-between);
                     .jinsheng {
-                        margin-right: pxTorem(10px);
+                        margin-right: px2rem(10px);
                     }
                 }
             }
